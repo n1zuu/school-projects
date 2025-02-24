@@ -243,6 +243,7 @@
             Controls.Add(actionPanel);
             Controls.Add(mainPanel);
             Name = "Grab1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Grab Hub";
             Load += Grab1_Load_1;
             mainPanel.ResumeLayout(false);

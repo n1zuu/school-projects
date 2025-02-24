@@ -61,11 +61,11 @@
             checkoutPanel.Controls.Add(returnCheckoutPnlBtn);
             checkoutPanel.Controls.Add(paymentPanel);
             checkoutPanel.Controls.Add(recieptPanel);
-            checkoutPanel.Location = new Point(14, -20);
+            checkoutPanel.Location = new Point(15, 12);
             checkoutPanel.Name = "checkoutPanel";
             checkoutPanel.Size = new Size(773, 491);
             checkoutPanel.TabIndex = 13;
-            checkoutPanel.Visible = false;
+            checkoutPanel.Paint += checkoutPanel_Paint;
             // 
             // returnCheckoutPnlBtn
             // 
@@ -77,6 +77,7 @@
             returnCheckoutPnlBtn.Size = new Size(65, 37);
             returnCheckoutPnlBtn.TabIndex = 14;
             returnCheckoutPnlBtn.UseVisualStyleBackColor = false;
+            returnCheckoutPnlBtn.Click += returnCheckoutPnlBtn_Click;
             // 
             // paymentPanel
             // 
@@ -313,9 +314,11 @@
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(30, 30, 30);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 516);
             Controls.Add(checkoutPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Finalize";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Finalize";
             checkoutPanel.ResumeLayout(false);
             paymentPanel.ResumeLayout(false);

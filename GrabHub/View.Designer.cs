@@ -41,11 +41,10 @@
             viewItemPanel.Controls.Add(returnBtnViewItemPnl);
             viewItemPanel.Controls.Add(viewItemList);
             viewItemPanel.Controls.Add(viewItemMsgLbl);
-            viewItemPanel.Location = new Point(28, -10);
+            viewItemPanel.Location = new Point(28, 8);
             viewItemPanel.Name = "viewItemPanel";
             viewItemPanel.Size = new Size(744, 471);
             viewItemPanel.TabIndex = 12;
-            viewItemPanel.Visible = false;
             // 
             // returnBtnViewItemPnl
             // 
@@ -57,6 +56,7 @@
             returnBtnViewItemPnl.Size = new Size(65, 37);
             returnBtnViewItemPnl.TabIndex = 13;
             returnBtnViewItemPnl.UseVisualStyleBackColor = false;
+            returnBtnViewItemPnl.Click += returnBtnViewItemPnl_Click;
             // 
             // viewItemList
             // 
@@ -89,9 +89,11 @@
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(30, 30, 30);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 491);
             Controls.Add(viewItemPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "View";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "View";
             viewItemPanel.ResumeLayout(false);
             viewItemPanel.PerformLayout();

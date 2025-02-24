@@ -58,11 +58,11 @@
             itemsSectPanel.Controls.Add(fruitVegeBtnLbl);
             itemsSectPanel.Controls.Add(fruitVegeBtn);
             itemsSectPanel.Controls.Add(returnActionPnlBtn);
-            itemsSectPanel.Location = new Point(38, 0);
+            itemsSectPanel.Dock = DockStyle.Fill;
+            itemsSectPanel.Location = new Point(0, 0);
             itemsSectPanel.Name = "itemsSectPanel";
-            itemsSectPanel.Size = new Size(725, 450);
+            itemsSectPanel.Size = new Size(800, 450);
             itemsSectPanel.TabIndex = 3;
-            itemsSectPanel.Visible = false;
             // 
             // bakedGoodsBtnLbl
             // 
@@ -180,6 +180,7 @@
             fruitVegeBtn.Size = new Size(89, 96);
             fruitVegeBtn.TabIndex = 11;
             fruitVegeBtn.UseVisualStyleBackColor = false;
+            fruitVegeBtn.Click += fruitVegeBtn_Click;
             // 
             // returnActionPnlBtn
             // 
@@ -191,6 +192,7 @@
             returnActionPnlBtn.Size = new Size(65, 37);
             returnActionPnlBtn.TabIndex = 10;
             returnActionPnlBtn.UseVisualStyleBackColor = false;
+            returnActionPnlBtn.Click += returnActionPnlBtn_Click;
             // 
             // Add
             // 
@@ -199,7 +201,9 @@
             BackColor = Color.FromArgb(30, 30, 30);
             ClientSize = new Size(800, 450);
             Controls.Add(itemsSectPanel);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Add";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Add";
             itemsSectPanel.ResumeLayout(false);
             itemsSectPanel.PerformLayout();

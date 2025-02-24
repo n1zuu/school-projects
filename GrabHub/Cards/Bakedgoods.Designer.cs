@@ -87,10 +87,11 @@
             bakedGoodsPnl.Controls.Add(cookiePanel);
             bakedGoodsPnl.Controls.Add(breadPanel);
             bakedGoodsPnl.Controls.Add(biscuitsPanel);
+            bakedGoodsPnl.Dock = DockStyle.Fill;
             bakedGoodsPnl.ForeColor = SystemColors.ControlText;
-            bakedGoodsPnl.Location = new Point(15, 3);
+            bakedGoodsPnl.Location = new Point(0, 0);
             bakedGoodsPnl.Name = "bakedGoodsPnl";
-            bakedGoodsPnl.Size = new Size(758, 453);
+            bakedGoodsPnl.Size = new Size(776, 459);
             bakedGoodsPnl.TabIndex = 8;
             bakedGoodsPnl.Visible = false;
             bakedGoodsPnl.Paint += bakedGoodsPnl_Paint;
