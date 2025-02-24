@@ -91,9 +91,8 @@
             cannedGoodsPnl.ForeColor = SystemColors.ControlText;
             cannedGoodsPnl.Location = new Point(0, 0);
             cannedGoodsPnl.Name = "cannedGoodsPnl";
-            cannedGoodsPnl.Size = new Size(760, 465);
+            cannedGoodsPnl.Size = new Size(745, 456);
             cannedGoodsPnl.TabIndex = 7;
-            cannedGoodsPnl.Visible = false;
             // 
             // returnItemSectBtn4
             // 
@@ -166,6 +165,7 @@
             addCornedTunaBtn.Size = new Size(35, 25);
             addCornedTunaBtn.TabIndex = 12;
             addCornedTunaBtn.UseVisualStyleBackColor = false;
+            addCornedTunaBtn.Click += addCornedTunaBtn_Click;
             // 
             // cornedTunaLbl
             // 
@@ -521,7 +521,7 @@
             BackColor = Color.FromArgb(30, 30, 30);
             Controls.Add(cannedGoodsPnl);
             Name = "Cannedgoods";
-            Size = new Size(760, 465);
+            Size = new Size(745, 456);
             cannedGoodsPnl.ResumeLayout(false);
             cornedTuna.ResumeLayout(false);
             cornedTuna.PerformLayout();

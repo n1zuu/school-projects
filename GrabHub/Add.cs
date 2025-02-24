@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GrabHub.Cards;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,7 +29,23 @@ namespace GrabHub
 
         private void fruitVegeBtn_Click(object sender, EventArgs e)
         {
+            FruitsandVegetables fruitsandVegetables = new FruitsandVegetables();
+            itemsSectPanel.Controls.Clear();
+            itemsSectPanel.Controls.Add(fruitsandVegetables);
+            fruitsandVegetables.Dock = DockStyle.Fill;
+        }
 
+        private void itemsSectPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dairyItemsBtn_Click(object sender, EventArgs e)
+        {
+            DairyItems dairyItems = new DairyItems();
+            itemsSectPanel.Controls.Clear();
+            itemsSectPanel.Controls.Add(dairyItems);
+            dairyItems.Dock = DockStyle.Fill;
         }
     }
 }

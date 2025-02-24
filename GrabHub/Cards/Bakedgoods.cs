@@ -21,5 +21,11 @@ namespace GrabHub.Cards
         {
 
         }
+
+        private void returnItemSectBtn5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Add add = new Add();
+        }
     }
 }
