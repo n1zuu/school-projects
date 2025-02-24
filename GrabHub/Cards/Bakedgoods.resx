@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="returnItemSectBtn5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="returnItemSectBtn5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADDSURBVEhL7ZZL
+        CsIwFEX97EPHDtQFiKA76wKa3HQbXYJ5dQ2i4MyRA1FnfsaRQJ1c2kFSKgg98EbvcC8EHqTXa4DVeirA
+        SYB9kaZj3jfChxfATQBXztE512cviopwP/c8z4fsBmOBiRhzofC3KLVmN5guvJKa8Fer4RZYsRvM/4Yn
+        STIQ4EzhT9F6yW4UNQWPDbBgNxoxZuZPv5Un+tKVBNGVBPGTkq1S84qSqz9SdqPhkgI4sNOYssR/W3Y2
+        y0a893wAj1Ga6N/K4MEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="cakePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cakePriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cakePriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeCakeBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="addCakeBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CakeLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cakePic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="piePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="piePriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="piePriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removePieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="addPieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pieLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="piePic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookiePanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookiePriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookiePriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeCookieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="addCookieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookieLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookiePic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadPriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadPriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeBreadBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="addBreadBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadPic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsPriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsPriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeBiscuitsBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="addBiscuitsBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsPic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cakePriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cakePriceIcon.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAL1SURBVFhHtZfN
+        ahRBEMf34Ceo6EEfwA886lnFiwjxBQzqI6gHfYI5bhJT/56RRGPiSS+JXowQcKcne1ASEwWNPoIBs0oU
+        hQQTyCr/Sc+S7e3endmYgh8sXVVd3dNV1b2lUk6ZiqJDGrihgVENzCfANw2sE/N7nroEuEZb279rmVbq
+        tAYea2BVA39zsqpFxipheMqeL7fMiOzXSt0zu7QD5GVdi/RXg2CfPX9bqYqcTIDPjgm7ZSGJohN2HKdU
+        gLMaqDkm2S5LnNuO1yTc+Q4Fz1jyfon0zIFPDicvlTC8FIfhBXu8AwuMZccvmYSzjdux0fAFNhx6PyL9
+        TcFNqRXJ9jkt0tNYgEiP6QO2nY/1phI1dW4bOYmBFxNBsKfhbGQqivZqYNK29yIyljmyw+VtMr+mougo
+        /WKRO0wqDSwmSt3i2KuBgWMa+O3wc7Hypq/vIHfP9mornSTAOAMlSl20dPUKcJ46DTyz/bwo1UsH9vZW
+        pZuyCXLX1sVAYL7MfVvXhhFOlj95RJ4wCHfbogOWNaA08NOhcxIDb7mA77aiDT+qwOF0p8Btnr/Dpgg1
+        LmDNofAj8vz9yMjuLPuZSKYMZ1psO/On+AKIUrMJcCXNYiPVINjFxbXYtiddQJEjcLHI4+AiXg8PHymS
+        A9kRzDkUPpYTpcQk3NbxehKG50yFPHX4uVFqtpSIPGpReIiBAZOAga1jaZoFlB06Hw9Zt9cdCh8TW8qw
+        vmW8zlvRLCB3I4pFrnbdijVwUwNftFJfsxwo2oqrQ0MH0gzmxeAw8DHJiyfL/kzSy0jkpcPex2jDmVdj
+        wev4Hcsw8+dvjjnsfKzx9dVYAIWPBIdhO7p/kJg7pUn4dOZzyWHsJX2OKXXZHu/AR+8znQ9Gc8fbTv8L
+        zn3cjtsk04ODZ3ZoEUuc247nFPMlCh1HBz503Lkt6TN9MzGLVIcNL7qy98zzSFqim30ib7MiK6zzllLb
+        jqT3vlK97N98yZh/UNwhqXEsVuoB22ujw+WQf/hfwxyBbaWHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="cakePriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeCakeBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="removeCakeBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAoSURBVDhPY2AY
+        BYMA7Jo4UZUSzLCnv/8/JZhyA9CdRCpGD5JRMBAAAH/lm0GJVIb6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="addCakeBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addCakeBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAySURBVDhPY2AY
+        1GBPf/9qEEYXJxqMNANgitHwYyhGF8c0FF0ByQZgAyQpxgZGDaATAAAKT2+98/1ivQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="CakeLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cakePic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="piePriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="piePriceIcon.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAL1SURBVFhHtZfN
+        ahRBEMf34Ceo6EEfwA886lnFiwjxBQzqI6gHfYI5bhJT/56RRGPiSS+JXowQcKcne1ASEwWNPoIBs0oU
+        hQQTyCr/Sc+S7e3endmYgh8sXVVd3dNV1b2lUk6ZiqJDGrihgVENzCfANw2sE/N7nroEuEZb279rmVbq
+        tAYea2BVA39zsqpFxipheMqeL7fMiOzXSt0zu7QD5GVdi/RXg2CfPX9bqYqcTIDPjgm7ZSGJohN2HKdU
+        gLMaqDkm2S5LnNuO1yTc+Q4Fz1jyfon0zIFPDicvlTC8FIfhBXu8AwuMZccvmYSzjdux0fAFNhx6PyL9
+        TcFNqRXJ9jkt0tNYgEiP6QO2nY/1phI1dW4bOYmBFxNBsKfhbGQqivZqYNK29yIyljmyw+VtMr+mougo
+        /WKRO0wqDSwmSt3i2KuBgWMa+O3wc7Hypq/vIHfP9mornSTAOAMlSl20dPUKcJ46DTyz/bwo1UsH9vZW
+        pZuyCXLX1sVAYL7MfVvXhhFOlj95RJ4wCHfbogOWNaA08NOhcxIDb7mA77aiDT+qwOF0p8Btnr/Dpgg1
+        LmDNofAj8vz9yMjuLPuZSKYMZ1psO/On+AKIUrMJcCXNYiPVINjFxbXYtiddQJEjcLHI4+AiXg8PHymS
+        A9kRzDkUPpYTpcQk3NbxehKG50yFPHX4uVFqtpSIPGpReIiBAZOAga1jaZoFlB06Hw9Zt9cdCh8TW8qw
+        vmW8zlvRLCB3I4pFrnbdijVwUwNftFJfsxwo2oqrQ0MH0gzmxeAw8DHJiyfL/kzSy0jkpcPex2jDmVdj
+        wev4Hcsw8+dvjjnsfKzx9dVYAIWPBIdhO7p/kJg7pUn4dOZzyWHsJX2OKXXZHu/AR+8znQ9Gc8fbTv8L
+        zn3cjtsk04ODZ3ZoEUuc247nFPMlCh1HBz503Lkt6TN9MzGLVIcNL7qy98zzSFqim30ib7MiK6zzllLb
+        jqT3vlK97N98yZh/UNwhqXEsVuoB22ujw+WQf/hfwxyBbaWHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="piePriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removePieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="removePieBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAoSURBVDhPY2AY
+        BYMA7Jo4UZUSzLCnv/8/JZhyA9CdRCpGD5JRMBAAAH/lm0GJVIb6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="addPieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addPieBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAySURBVDhPY2AY
+        1GBPf/9qEEYXJxqMNANgitHwYyhGF8c0FF0ByQZgAyQpxgZGDaATAAAKT2+98/1ivQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="pieLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="piePic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookiePriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="cookiePriceIcon.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAL1SURBVFhHtZfN
+        ahRBEMf34Ceo6EEfwA886lnFiwjxBQzqI6gHfYI5bhJT/56RRGPiSS+JXowQcKcne1ASEwWNPoIBs0oU
+        hQQTyCr/Sc+S7e3endmYgh8sXVVd3dNV1b2lUk6ZiqJDGrihgVENzCfANw2sE/N7nroEuEZb279rmVbq
+        tAYea2BVA39zsqpFxipheMqeL7fMiOzXSt0zu7QD5GVdi/RXg2CfPX9bqYqcTIDPjgm7ZSGJohN2HKdU
+        gLMaqDkm2S5LnNuO1yTc+Q4Fz1jyfon0zIFPDicvlTC8FIfhBXu8AwuMZccvmYSzjdux0fAFNhx6PyL9
+        TcFNqRXJ9jkt0tNYgEiP6QO2nY/1phI1dW4bOYmBFxNBsKfhbGQqivZqYNK29yIyljmyw+VtMr+mougo
+        /WKRO0wqDSwmSt3i2KuBgWMa+O3wc7Hypq/vIHfP9mornSTAOAMlSl20dPUKcJ46DTyz/bwo1UsH9vZW
+        pZuyCXLX1sVAYL7MfVvXhhFOlj95RJ4wCHfbogOWNaA08NOhcxIDb7mA77aiDT+qwOF0p8Btnr/Dpgg1
+        LmDNofAj8vz9yMjuLPuZSKYMZ1psO/On+AKIUrMJcCXNYiPVINjFxbXYtiddQJEjcLHI4+AiXg8PHymS
+        A9kRzDkUPpYTpcQk3NbxehKG50yFPHX4uVFqtpSIPGpReIiBAZOAga1jaZoFlB06Hw9Zt9cdCh8TW8qw
+        vmW8zlvRLCB3I4pFrnbdijVwUwNftFJfsxwo2oqrQ0MH0gzmxeAw8DHJiyfL/kzSy0jkpcPex2jDmVdj
+        wev4Hcsw8+dvjjnsfKzx9dVYAIWPBIdhO7p/kJg7pUn4dOZzyWHsJX2OKXXZHu/AR+8znQ9Gc8fbTv8L
+        zn3cjtsk04ODZ3ZoEUuc247nFPMlCh1HBz503Lkt6TN9MzGLVIcNL7qy98zzSFqim30ib7MiK6zzllLb
+        jqT3vlK97N98yZh/UNwhqXEsVuoB22ujw+WQf/hfwxyBbaWHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="cookiePriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeCookieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="removeCookieBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAoSURBVDhPY2AY
+        BYMA7Jo4UZUSzLCnv/8/JZhyA9CdRCpGD5JRMBAAAH/lm0GJVIb6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="addCookieBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addCookieBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAySURBVDhPY2AY
+        1GBPf/9qEEYXJxqMNANgitHwYyhGF8c0FF0ByQZgAyQpxgZGDaATAAAKT2+98/1ivQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="cookieLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cookiePic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadPriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="breadPriceIcon.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAL1SURBVFhHtZfN
+        ahRBEMf34Ceo6EEfwA886lnFiwjxBQzqI6gHfYI5bhJT/56RRGPiSS+JXowQcKcne1ASEwWNPoIBs0oU
+        hQQTyCr/Sc+S7e3endmYgh8sXVVd3dNV1b2lUk6ZiqJDGrihgVENzCfANw2sE/N7nroEuEZb279rmVbq
+        tAYea2BVA39zsqpFxipheMqeL7fMiOzXSt0zu7QD5GVdi/RXg2CfPX9bqYqcTIDPjgm7ZSGJohN2HKdU
+        gLMaqDkm2S5LnNuO1yTc+Q4Fz1jyfon0zIFPDicvlTC8FIfhBXu8AwuMZccvmYSzjdux0fAFNhx6PyL9
+        TcFNqRXJ9jkt0tNYgEiP6QO2nY/1phI1dW4bOYmBFxNBsKfhbGQqivZqYNK29yIyljmyw+VtMr+mougo
+        /WKRO0wqDSwmSt3i2KuBgWMa+O3wc7Hypq/vIHfP9mornSTAOAMlSl20dPUKcJ46DTyz/bwo1UsH9vZW
+        pZuyCXLX1sVAYL7MfVvXhhFOlj95RJ4wCHfbogOWNaA08NOhcxIDb7mA77aiDT+qwOF0p8Btnr/Dpgg1
+        LmDNofAj8vz9yMjuLPuZSKYMZ1psO/On+AKIUrMJcCXNYiPVINjFxbXYtiddQJEjcLHI4+AiXg8PHymS
+        A9kRzDkUPpYTpcQk3NbxehKG50yFPHX4uVFqtpSIPGpReIiBAZOAga1jaZoFlB06Hw9Zt9cdCh8TW8qw
+        vmW8zlvRLCB3I4pFrnbdijVwUwNftFJfsxwo2oqrQ0MH0gzmxeAw8DHJiyfL/kzSy0jkpcPex2jDmVdj
+        wev4Hcsw8+dvjjnsfKzx9dVYAIWPBIdhO7p/kJg7pUn4dOZzyWHsJX2OKXXZHu/AR+8znQ9Gc8fbTv8L
+        zn3cjtsk04ODZ3ZoEUuc247nFPMlCh1HBz503Lkt6TN9MzGLVIcNL7qy98zzSFqim30ib7MiK6zzllLb
+        jqT3vlK97N98yZh/UNwhqXEsVuoB22ujw+WQf/hfwxyBbaWHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="breadPriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeBreadBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="removeBreadBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAoSURBVDhPY2AY
+        BYMA7Jo4UZUSzLCnv/8/JZhyA9CdRCpGD5JRMBAAAH/lm0GJVIb6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="addBreadBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addBreadBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAySURBVDhPY2AY
+        1GBPf/9qEEYXJxqMNANgitHwYyhGF8c0FF0ByQZgAyQpxgZGDaATAAAKT2+98/1ivQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="breadLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="breadPic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsPriceIcon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="biscuitsPriceIcon.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAL1SURBVFhHtZfN
+        ahRBEMf34Ceo6EEfwA886lnFiwjxBQzqI6gHfYI5bhJT/56RRGPiSS+JXowQcKcne1ASEwWNPoIBs0oU
+        hQQTyCr/Sc+S7e3endmYgh8sXVVd3dNV1b2lUk6ZiqJDGrihgVENzCfANw2sE/N7nroEuEZb279rmVbq
+        tAYea2BVA39zsqpFxipheMqeL7fMiOzXSt0zu7QD5GVdi/RXg2CfPX9bqYqcTIDPjgm7ZSGJohN2HKdU
+        gLMaqDkm2S5LnNuO1yTc+Q4Fz1jyfon0zIFPDicvlTC8FIfhBXu8AwuMZccvmYSzjdux0fAFNhx6PyL9
+        TcFNqRXJ9jkt0tNYgEiP6QO2nY/1phI1dW4bOYmBFxNBsKfhbGQqivZqYNK29yIyljmyw+VtMr+mougo
+        /WKRO0wqDSwmSt3i2KuBgWMa+O3wc7Hypq/vIHfP9mornSTAOAMlSl20dPUKcJ46DTyz/bwo1UsH9vZW
+        pZuyCXLX1sVAYL7MfVvXhhFOlj95RJ4wCHfbogOWNaA08NOhcxIDb7mA77aiDT+qwOF0p8Btnr/Dpgg1
+        LmDNofAj8vz9yMjuLPuZSKYMZ1psO/On+AKIUrMJcCXNYiPVINjFxbXYtiddQJEjcLHI4+AiXg8PHymS
+        A9kRzDkUPpYTpcQk3NbxehKG50yFPHX4uVFqtpSIPGpReIiBAZOAga1jaZoFlB06Hw9Zt9cdCh8TW8qw
+        vmW8zlvRLCB3I4pFrnbdijVwUwNftFJfsxwo2oqrQ0MH0gzmxeAw8DHJiyfL/kzSy0jkpcPex2jDmVdj
+        wev4Hcsw8+dvjjnsfKzx9dVYAIWPBIdhO7p/kJg7pUn4dOZzyWHsJX2OKXXZHu/AR+8znQ9Gc8fbTv8L
+        zn3cjtsk04ODZ3ZoEUuc247nFPMlCh1HBz503Lkt6TN9MzGLVIcNL7qy98zzSFqim30ib7MiK6zzllLb
+        jqT3vlK97N98yZh/UNwhqXEsVuoB22ujw+WQf/hfwxyBbaWHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="biscuitsPriceLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="removeBiscuitsBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="removeBiscuitsBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAoSURBVDhPY2AY
+        BYMA7Jo4UZUSzLCnv/8/JZhyA9CdRCpGD5JRMBAAAH/lm0GJVIb6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="addBiscuitsBtn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="addBiscuitsBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAySURBVDhPY2AY
+        1GBPf/9qEEYXJxqMNANgitHwYyhGF8c0FF0ByQZgAyQpxgZGDaATAAAKT2+98/1ivQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="biscuitsLbl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="biscuitsPic.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
