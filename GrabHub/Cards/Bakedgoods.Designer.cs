@@ -91,9 +91,8 @@
             bakedGoodsPnl.ForeColor = SystemColors.ControlText;
             bakedGoodsPnl.Location = new Point(0, 0);
             bakedGoodsPnl.Name = "bakedGoodsPnl";
-            bakedGoodsPnl.Size = new Size(776, 459);
+            bakedGoodsPnl.Size = new Size(745, 456);
             bakedGoodsPnl.TabIndex = 8;
-            bakedGoodsPnl.Visible = false;
             bakedGoodsPnl.Paint += bakedGoodsPnl_Paint;
             // 
             // returnItemSectBtn5
@@ -106,6 +105,7 @@
             returnItemSectBtn5.Size = new Size(65, 37);
             returnItemSectBtn5.TabIndex = 11;
             returnItemSectBtn5.UseVisualStyleBackColor = false;
+            returnItemSectBtn5.Click += returnItemSectBtn5_Click;
             // 
             // cakePanel
             // 
@@ -522,7 +522,7 @@
             BackColor = Color.FromArgb(30, 30, 30);
             Controls.Add(bakedGoodsPnl);
             Name = "Bakedgoods";
-            Size = new Size(776, 459);
+            Size = new Size(745, 456);
             bakedGoodsPnl.ResumeLayout(false);
             cakePanel.ResumeLayout(false);
             cakePanel.PerformLayout();

@@ -91,9 +91,8 @@
             beverageItemsPnl.ForeColor = SystemColors.ControlText;
             beverageItemsPnl.Location = new Point(0, 0);
             beverageItemsPnl.Name = "beverageItemsPnl";
-            beverageItemsPnl.Size = new Size(793, 482);
+            beverageItemsPnl.Size = new Size(745, 456);
             beverageItemsPnl.TabIndex = 5;
-            beverageItemsPnl.Visible = false;
             beverageItemsPnl.Paint += beverageItemsPnl_Paint;
             // 
             // returnItemSectBtn2
@@ -522,7 +521,7 @@
             BackColor = Color.FromArgb(30, 30, 30);
             Controls.Add(beverageItemsPnl);
             Name = "Beverages";
-            Size = new Size(793, 482);
+            Size = new Size(745, 456);
             beverageItemsPnl.ResumeLayout(false);
             liquorPanel.ResumeLayout(false);
             liquorPanel.PerformLayout();

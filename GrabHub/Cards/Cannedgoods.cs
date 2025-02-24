@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GrabHub.Cards
 {
-    public partial class Cannedgoods: UserControl
+    public partial class Cannedgoods : UserControl
     {
         public Cannedgoods()
         {
             InitializeComponent();
+        }
+
+        private void addCornedTunaBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

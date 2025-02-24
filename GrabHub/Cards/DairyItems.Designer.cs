@@ -91,9 +91,8 @@
             dairyProductsPnl.ForeColor = SystemColors.ControlText;
             dairyProductsPnl.Location = new Point(0, 0);
             dairyProductsPnl.Name = "dairyProductsPnl";
-            dairyProductsPnl.Size = new Size(762, 472);
+            dairyProductsPnl.Size = new Size(745, 456);
             dairyProductsPnl.TabIndex = 7;
-            dairyProductsPnl.Visible = false;
             // 
             // returnItemSectBtn3
             // 
@@ -521,7 +520,7 @@
             BackColor = Color.FromArgb(30, 30, 30);
             Controls.Add(dairyProductsPnl);
             Name = "DairyItems";
-            Size = new Size(762, 472);
+            Size = new Size(745, 456);
             dairyProductsPnl.ResumeLayout(false);
             custardPanel.ResumeLayout(false);
             custardPanel.PerformLayout();

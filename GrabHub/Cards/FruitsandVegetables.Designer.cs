@@ -90,9 +90,8 @@
             fruitVegeItemsPnl.ForeColor = SystemColors.ControlText;
             fruitVegeItemsPnl.Location = new Point(0, 0);
             fruitVegeItemsPnl.Name = "fruitVegeItemsPnl";
-            fruitVegeItemsPnl.Size = new Size(737, 459);
+            fruitVegeItemsPnl.Size = new Size(745, 459);
             fruitVegeItemsPnl.TabIndex = 4;
-            fruitVegeItemsPnl.Visible = false;
             // 
             // returnItemSectBtn1
             // 
@@ -104,6 +103,7 @@
             returnItemSectBtn1.Size = new Size(65, 37);
             returnItemSectBtn1.TabIndex = 11;
             returnItemSectBtn1.UseVisualStyleBackColor = false;
+            returnItemSectBtn1.Click += returnItemSectBtn1_Click;
             // 
             // eggplantPanel
             // 
@@ -520,7 +520,7 @@
             BackColor = Color.FromArgb(30, 30, 30);
             Controls.Add(fruitVegeItemsPnl);
             Name = "FruitsandVegetables";
-            Size = new Size(737, 459);
+            Size = new Size(745, 459);
             fruitVegeItemsPnl.ResumeLayout(false);
             eggplantPanel.ResumeLayout(false);
             eggplantPanel.PerformLayout();

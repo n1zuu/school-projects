@@ -63,6 +63,7 @@
             itemsSectPanel.Name = "itemsSectPanel";
             itemsSectPanel.Size = new Size(800, 450);
             itemsSectPanel.TabIndex = 3;
+            itemsSectPanel.Paint += itemsSectPanel_Paint;
             // 
             // bakedGoodsBtnLbl
             // 
@@ -126,6 +127,7 @@
             dairyItemsBtn.Size = new Size(89, 96);
             dairyItemsBtn.TabIndex = 16;
             dairyItemsBtn.UseVisualStyleBackColor = false;
+            dairyItemsBtn.Click += dairyItemsBtn_Click;
             // 
             // itemsPanelMsg
             // 
