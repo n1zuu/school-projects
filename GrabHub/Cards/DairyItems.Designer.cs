@@ -87,10 +87,11 @@
             dairyProductsPnl.Controls.Add(yogurtPanel);
             dairyProductsPnl.Controls.Add(creamPanel);
             dairyProductsPnl.Controls.Add(milkPanel);
+            dairyProductsPnl.Dock = DockStyle.Fill;
             dairyProductsPnl.ForeColor = SystemColors.ControlText;
-            dairyProductsPnl.Location = new Point(3, 3);
+            dairyProductsPnl.Location = new Point(0, 0);
             dairyProductsPnl.Name = "dairyProductsPnl";
-            dairyProductsPnl.Size = new Size(736, 453);
+            dairyProductsPnl.Size = new Size(762, 472);
             dairyProductsPnl.TabIndex = 7;
             dairyProductsPnl.Visible = false;
             // 

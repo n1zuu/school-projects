@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace GrabHub
 {
-    public partial class Remove: Form
+    public partial class Remove : Form
     {
         public Remove()
         {
             InitializeComponent();
+        }
+
+        private void returnBtnViewItemPnl_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            if(this.Owner != null)
+            {
+                this.Owner.Show();
+            }
         }
     }
 }

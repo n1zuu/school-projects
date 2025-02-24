@@ -53,9 +53,10 @@
             cancelItemPanel.Controls.Add(cancelPriceLbl);
             cancelItemPanel.Controls.Add(cancelItemLblCnclItemPnl);
             cancelItemPanel.Controls.Add(cancelPic);
+            cancelItemPanel.Dock = DockStyle.Fill;
             cancelItemPanel.Location = new Point(0, 0);
             cancelItemPanel.Name = "cancelItemPanel";
-            cancelItemPanel.Size = new Size(508, 371);
+            cancelItemPanel.Size = new Size(509, 368);
             cancelItemPanel.TabIndex = 10;
             cancelItemPanel.Visible = false;
             // 

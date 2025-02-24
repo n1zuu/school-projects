@@ -87,10 +87,11 @@
             cannedGoodsPnl.Controls.Add(porkBeansPanel);
             cannedGoodsPnl.Controls.Add(cornedBeefPanel);
             cannedGoodsPnl.Controls.Add(sardinesPanel);
+            cannedGoodsPnl.Dock = DockStyle.Fill;
             cannedGoodsPnl.ForeColor = SystemColors.ControlText;
-            cannedGoodsPnl.Location = new Point(3, 0);
+            cannedGoodsPnl.Location = new Point(0, 0);
             cannedGoodsPnl.Name = "cannedGoodsPnl";
-            cannedGoodsPnl.Size = new Size(744, 473);
+            cannedGoodsPnl.Size = new Size(760, 465);
             cannedGoodsPnl.TabIndex = 7;
             cannedGoodsPnl.Visible = false;
             // 

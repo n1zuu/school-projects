@@ -86,6 +86,7 @@
             fruitVegeItemsPnl.Controls.Add(bananaPanel);
             fruitVegeItemsPnl.Controls.Add(applePanel);
             fruitVegeItemsPnl.Controls.Add(horseradishPanel);
+            fruitVegeItemsPnl.Dock = DockStyle.Fill;
             fruitVegeItemsPnl.ForeColor = SystemColors.ControlText;
             fruitVegeItemsPnl.Location = new Point(0, 0);
             fruitVegeItemsPnl.Name = "fruitVegeItemsPnl";

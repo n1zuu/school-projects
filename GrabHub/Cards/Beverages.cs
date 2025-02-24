@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GrabHub.Cards
 {
-    public partial class Beverages: UserControl
+    public partial class Beverages : UserControl
     {
         public Beverages()
         {
             InitializeComponent();
+        }
+
+        private void beverageItemsPnl_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
